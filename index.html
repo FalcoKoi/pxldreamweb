@@ -1,93 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="app.css">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Comfortaa&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>pxldream personal website</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Comfortaa&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="app.css" />
 </head>
 <body>
+  <!-- ========== Navigation ========== -->
   <header>
-<nav class="navbar">
-  <div class="nav-container">
-    <div class="nav-brand">pxldream</div>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-brand">pxldream</div>
 
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
 
-    <div class="nav-links">
-      <a href="#">Home</a>
-      <a href="#about">About</a>
-      <a href="#">Projects(soon)</a>
-      <a href="#Contact">Contact</a>
-    </div>
-  </div>
-</nav>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#">Projects (soon)</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
   </header>
+
   <main>
+    <!-- ========== Hero Section ========== -->
+    <section class="hero-section" id="home">
       <div class="hero">
         <h1>I'm a <span class="type"></span></h1>
+      </div>
+    </section>
+
+    <!-- ========== About Section ========== -->
+    <section class="about-section" id="about">
+      <p class="section-title">About Pxldream</p>
+
+      <div class="card-layout">
+        <div class="card">
+          <img src="assets/5edb1b41e159d85844bc68b090ab92c7.jpg" alt="Pxldream photo" />
         </div>
-        <div id="about">
-<section class="card-section">
-  <p class="section-title">About Pxldream</p>
 
-  <div class="card-layout">
-    <div class="card">
-      <img src="assets/5edb1b41e159d85844bc68b090ab92c7.jpg" alt="Pxldream photo">
-    </div>
+        <div class="about-text">
+          <p>
+            I'm Pxldream — a frontend web developer and digital creative. I specialize in crafting responsive, aesthetic, and performance-focused web interfaces.
+          </p>
+          <p>
+            I love working with HTML, CSS, and soon Tailwind and JavaScript to create smooth, intuitive user experiences. I'm currently diving deep into animation, flex layouts, and component design, aiming to build not just static sites but fluid, interactive experiences.
+          </p>
+          <p>
+            Every line of code I write is driven by a passion for visual design and a dream of making the web softer, brighter, and more personal. Whether it's making an elegant layout or tweaking responsive breakpoints, I pay attention to every detail to make sure it just feels right.
+          </p>
+        </div>
 
-    <div class="about-text">
-      <p>
-        I'm Pxldream — a frontend web developer and digital creative. I specialize in crafting responsive, aesthetic, and performance-focused web interfaces. I love working with HTML, CSS, and soon Tailwind and JavaScript to create smooth, intuitive user experiences. I'm currently diving deep into animation, flex layouts, and component design, aiming to build not just static sites but fluid, interactive experiences. Every line of code I write is driven by a passion for visual design and a dream of making the web softer, brighter, and more personal. Whether it's making an elegant layout or tweaking responsive breakpoints, I pay attention to every detail to make sure it just feels right.
+        <aside class="quick-stats">
+          <ul>
+            <li><strong>Name:</strong> Pxldream</li>
+            <li><strong>Nickname:</strong> Pixel</li>
+            <li><strong>From:</strong> Earth 🌍</li>
+            <li><strong>Style:</strong> Clean • Minimal • Modern</li>
+            <li><strong>Motto:</strong> Build it with style, keep it light.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ========== Contact Section ========== -->
+    <section class="contact-section" id="contact">
+      <p class="section-title">Contact</p>
+
+      <div class="contact-links">
+        <a href="mailto:pxlfemm@email.com" class="contact-link">
+          <i class="fas fa-envelope contact-icon"></i>
+          <span>Email</span>
+        </a>
+
+        <a href="https://discord.com/users/pxlfem" target="_blank" class="contact-link">
+          <i class="fab fa-discord contact-icon"></i>
+          <span>Discord</span>
+        </a>
+
+        <a href="https://github.com/falcokoi" target="_blank" class="contact-link">
+          <i class="fab fa-github contact-icon"></i>
+          <span>GitHub</span>
+        </a>
+      </div>
+
+      <p class="contact-paragraph">
+        Whether you're here to discuss a project idea, ask about something I've built, or just want to say hi — I'm always open to meaningful conversations.
+        I’m passionate about web development, design, and building cool stuff on the internet, so if you’ve got something in mind or just want to share ideas, feel free to reach out.
+        No pressure, no formalities — just drop a message and let’s see where it goes.
       </p>
-    </div>
+    </section>
 
-    <div class="quick-stats">
-      <ul>
-        <li><strong>Name:</strong> Pxldream</li>
-        <li><strong>Nickname:</strong> Pixel</li>
-        <li><strong>From:</strong> Earth 🌍</li>
-        <li><strong>Style:</strong> Clean • Minimal • Modern</li>
-        <li><strong>Motto:</strong> Build it with style, keep it light.</li>
-      </ul>
-    </div>
-  </div>
-</section>
-  </div>
- <!-- <div id="projects">
-    
-  </div>-->
-  <div id="Contact">
-    <p class="section-title">Contact</p>
-        <div class="contact-links">
-  <a href="mailto:pxlfemm@email.com" class="contact-link">
-    <i class="fas fa-envelope contact-icon"></i>
-    <span>Email</span>
-  </a>
-
-  <a href="https://discord.com/users/pxlfem" target="_blank" class="contact-link">
-    <i class="fab fa-discord contact-icon"></i>
-    <span>Discord</span>
-  </a>
-
-  <a href="https://github.com/falcokoi" target="_blank" class="contact-link">
-    <i class="fab fa-github contact-icon"></i>
-    <span>GitHub</span>
-  </a>
-<p class="contact-paragraph">
-  Whether you're here to discuss a project idea, ask about something I've built, or just want to say hi — I'm always open to meaningful conversations. I’m passionate about web development, design, and building cool stuff on the internet, so if you’ve got something in mind or just want to share ideas, feel free to reach out. I hang out on Discord, GitHub, and check my email often — hit any of the links below. No pressure, no formalities — just drop a message and let’s see where it goes.
-</p>
-</div>
-</div>
+    <!-- ========== Future Project Section ========== -->
+    <!-- <section id="projects">
+      <p class="section-title">Projects</p>
+      <div class="projects-container">
+        // Soon to be implemented
+      </div>
+    </section> -->
   </main>
+
+  <!-- ========== Footer ========== -->
   <footer>
-      
+    <!-- Optional: Add copyright -->
+    <!-- <p>&copy; 2025 Pxldream. All rights reserved.</p> -->
   </footer>
+
+  <!-- ========== Scripts ========== -->
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <script src="app.js"></script>
 </body>
 </html>
